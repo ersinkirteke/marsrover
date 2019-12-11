@@ -1702,9 +1702,6 @@
       "Nasa/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "Moq": "4.13.1"
-        },
         "compile": {
           "bin/placeholder/Nasa.dll": {}
         },
@@ -5975,6 +5972,7 @@
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.NET.Test.Sdk >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
+      "Moq >= 4.13.1",
       "Nasa >= 1.0.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
@@ -6037,6 +6035,10 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "Moq": {
+            "target": "Package",
+            "version": "[4.13.1, )"
           },
           "xunit": {
             "target": "Package",

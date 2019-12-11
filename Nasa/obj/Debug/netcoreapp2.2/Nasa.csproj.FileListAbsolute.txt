@@ -6,4 +6,3 @@ C:\Users\Ersin Kırteke\source\repos\MarsRover\Nasa\obj\Debug\netcoreapp2.2\Nasa
 C:\Users\Ersin Kırteke\source\repos\MarsRover\Nasa\obj\Debug\netcoreapp2.2\Nasa.AssemblyInfo.cs
 C:\Users\Ersin Kırteke\source\repos\MarsRover\Nasa\obj\Debug\netcoreapp2.2\Nasa.dll
 C:\Users\Ersin Kırteke\source\repos\MarsRover\Nasa\obj\Debug\netcoreapp2.2\Nasa.pdb
-C:\Users\Ersin Kırteke\source\repos\MarsRover\Nasa\obj\Debug\netcoreapp2.2\Nasa.csprojAssemblyReference.cache
