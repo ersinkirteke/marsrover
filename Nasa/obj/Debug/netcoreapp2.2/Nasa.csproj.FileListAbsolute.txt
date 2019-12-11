@@ -6,3 +6,12 @@ C:\Users\Ersin Kırteke\source\repos\MarsRover\Nasa\obj\Debug\netcoreapp2.2\Nasa
 C:\Users\Ersin Kırteke\source\repos\MarsRover\Nasa\obj\Debug\netcoreapp2.2\Nasa.AssemblyInfo.cs
 C:\Users\Ersin Kırteke\source\repos\MarsRover\Nasa\obj\Debug\netcoreapp2.2\Nasa.dll
 C:\Users\Ersin Kırteke\source\repos\MarsRover\Nasa\obj\Debug\netcoreapp2.2\Nasa.pdb
+C:\Users\Ersin Kırteke\Desktop\sahabt\Nasa\bin\Debug\netcoreapp2.2\Nasa.deps.json
+C:\Users\Ersin Kırteke\Desktop\sahabt\Nasa\bin\Debug\netcoreapp2.2\Nasa.dll
+C:\Users\Ersin Kırteke\Desktop\sahabt\Nasa\bin\Debug\netcoreapp2.2\Nasa.pdb
+C:\Users\Ersin Kırteke\Desktop\sahabt\Nasa\obj\Debug\netcoreapp2.2\Nasa.csprojAssemblyReference.cache
+C:\Users\Ersin Kırteke\Desktop\sahabt\Nasa\obj\Debug\netcoreapp2.2\Nasa.csproj.CoreCompileInputs.cache
+C:\Users\Ersin Kırteke\Desktop\sahabt\Nasa\obj\Debug\netcoreapp2.2\Nasa.AssemblyInfoInputs.cache
+C:\Users\Ersin Kırteke\Desktop\sahabt\Nasa\obj\Debug\netcoreapp2.2\Nasa.AssemblyInfo.cs
+C:\Users\Ersin Kırteke\Desktop\sahabt\Nasa\obj\Debug\netcoreapp2.2\Nasa.dll
+C:\Users\Ersin Kırteke\Desktop\sahabt\Nasa\obj\Debug\netcoreapp2.2\Nasa.pdb
