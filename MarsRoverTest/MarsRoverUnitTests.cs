@@ -97,7 +97,7 @@ namespace MarsRoverTest
         }
 
         [Fact]
-        public void When_Vehicle_Landed_Fail()
+        public void When_Vehicle_Landed_Fail_Throws_ArgumentException()
         {
             //Arrange
             IPlateu _plateu = new Plateu(5, 5);
