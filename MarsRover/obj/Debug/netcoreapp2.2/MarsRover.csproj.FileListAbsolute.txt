@@ -12,3 +12,17 @@ C:\Users\Ersin Kırteke\source\repos\MarsRover\MarsRover\obj\Debug\netcoreapp2.2
 C:\Users\Ersin Kırteke\source\repos\MarsRover\MarsRover\bin\Debug\netcoreapp2.2\Nasa.dll
 C:\Users\Ersin Kırteke\source\repos\MarsRover\MarsRover\bin\Debug\netcoreapp2.2\Nasa.pdb
 C:\Users\Ersin Kırteke\source\repos\MarsRover\MarsRover\obj\Debug\netcoreapp2.2\MarsRover.csproj.CopyComplete
+C:\Users\Ersin Kırteke\Desktop\sahabt2\sahabt\MarsRover\bin\Debug\netcoreapp2.2\MarsRover.deps.json
+C:\Users\Ersin Kırteke\Desktop\sahabt2\sahabt\MarsRover\bin\Debug\netcoreapp2.2\MarsRover.runtimeconfig.json
+C:\Users\Ersin Kırteke\Desktop\sahabt2\sahabt\MarsRover\bin\Debug\netcoreapp2.2\MarsRover.runtimeconfig.dev.json
+C:\Users\Ersin Kırteke\Desktop\sahabt2\sahabt\MarsRover\bin\Debug\netcoreapp2.2\MarsRover.dll
+C:\Users\Ersin Kırteke\Desktop\sahabt2\sahabt\MarsRover\bin\Debug\netcoreapp2.2\MarsRover.pdb
+C:\Users\Ersin Kırteke\Desktop\sahabt2\sahabt\MarsRover\bin\Debug\netcoreapp2.2\Nasa.dll
+C:\Users\Ersin Kırteke\Desktop\sahabt2\sahabt\MarsRover\bin\Debug\netcoreapp2.2\Nasa.pdb
+C:\Users\Ersin Kırteke\Desktop\sahabt2\sahabt\MarsRover\obj\Debug\netcoreapp2.2\MarsRover.csprojAssemblyReference.cache
+C:\Users\Ersin Kırteke\Desktop\sahabt2\sahabt\MarsRover\obj\Debug\netcoreapp2.2\MarsRover.csproj.CoreCompileInputs.cache
+C:\Users\Ersin Kırteke\Desktop\sahabt2\sahabt\MarsRover\obj\Debug\netcoreapp2.2\MarsRover.AssemblyInfoInputs.cache
+C:\Users\Ersin Kırteke\Desktop\sahabt2\sahabt\MarsRover\obj\Debug\netcoreapp2.2\MarsRover.AssemblyInfo.cs
+C:\Users\Ersin Kırteke\Desktop\sahabt2\sahabt\MarsRover\obj\Debug\netcoreapp2.2\MarsRover.csproj.CopyComplete
+C:\Users\Ersin Kırteke\Desktop\sahabt2\sahabt\MarsRover\obj\Debug\netcoreapp2.2\MarsRover.dll
+C:\Users\Ersin Kırteke\Desktop\sahabt2\sahabt\MarsRover\obj\Debug\netcoreapp2.2\MarsRover.pdb

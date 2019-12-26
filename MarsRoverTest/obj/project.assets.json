@@ -5986,11 +5986,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\MarsRoverTest\\MarsRoverTest.csproj",
+      "projectUniqueName": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\MarsRoverTest\\MarsRoverTest.csproj",
       "projectName": "MarsRoverTest",
-      "projectPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\MarsRoverTest\\MarsRoverTest.csproj",
+      "projectPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\MarsRoverTest\\MarsRoverTest.csproj",
       "packagesPath": "C:\\Users\\Ersin Kırteke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\MarsRoverTest\\obj\\",
+      "outputPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\MarsRoverTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -6011,8 +6011,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\Nasa\\Nasa.csproj": {
-              "projectPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\Nasa\\Nasa.csproj"
+            "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\Nasa\\Nasa.csproj": {
+              "projectPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\Nasa\\Nasa.csproj"
             }
           }
         }

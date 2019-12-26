@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\MarsRover\\MarsRover.csproj": {}
+    "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\MarsRover\\MarsRover.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\MarsRover\\MarsRover.csproj": {
+    "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\MarsRover\\MarsRover.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\MarsRover\\MarsRover.csproj",
+        "projectUniqueName": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\MarsRover\\MarsRover.csproj",
         "projectName": "MarsRover",
-        "projectPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\MarsRover\\MarsRover.csproj",
+        "projectPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\MarsRover\\MarsRover.csproj",
         "packagesPath": "C:\\Users\\Ersin Kırteke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\MarsRover\\obj\\",
+        "outputPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\MarsRover\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\Nasa\\Nasa.csproj": {
-                "projectPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\Nasa\\Nasa.csproj"
+              "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\Nasa\\Nasa.csproj": {
+                "projectPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\Nasa\\Nasa.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\Nasa\\Nasa.csproj": {
+    "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\Nasa\\Nasa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\Nasa\\Nasa.csproj",
+        "projectUniqueName": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\Nasa\\Nasa.csproj",
         "projectName": "Nasa",
-        "projectPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\Nasa\\Nasa.csproj",
+        "projectPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\Nasa\\Nasa.csproj",
         "packagesPath": "C:\\Users\\Ersin Kırteke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt\\Nasa\\obj\\",
+        "outputPath": "C:\\Users\\Ersin Kırteke\\Desktop\\sahabt2\\sahabt\\Nasa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
