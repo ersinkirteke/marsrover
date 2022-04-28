@@ -8,8 +8,8 @@ namespace MarsRover
     {
         static void Main(string[] args)
         {
-            IPlateu _plateu = new Plateu(5, 5);
-            ICompany nasa = new Nasa();
+            var _plateu = new Plateu(5, 5);
+            var nasa = new Nasa();
 
             var _vehicle = new NasaRover(_plateu, 1, 2, Directions.North);
             var _vehicle2 = new NasaRover(_plateu, 3, 3, Directions.East);
