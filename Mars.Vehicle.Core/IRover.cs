@@ -2,6 +2,6 @@
 {
     public interface IRover
     {
-        void Accept(ILogger logger);
+        void Accept(IVisitor logger);
     }
 }

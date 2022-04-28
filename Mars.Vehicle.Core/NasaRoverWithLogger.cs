@@ -13,6 +13,6 @@ namespace Mars.Vehicle.Core
 
         }
 
-        public void Accept(ILogger logger) => logger.Log(this);
+        public void Accept(IVisitor visitor) => visitor.Visit(this);
     }
 }

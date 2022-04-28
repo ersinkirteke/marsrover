@@ -15,7 +15,7 @@ namespace MarsRover
             var _vehicle2 = new NasaRover(_plateu, 3, 3, Directions.East);
             var _vehicle3 = new NasaRoverWithLogger(_plateu, 4, 4, Directions.East);
 
-            ILogger logger = new Logger();
+            IVisitor logger = new RoverVisitor();
             _vehicle3.Accept(logger);
 
             nasa.Register(_vehicle);

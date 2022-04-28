@@ -2,9 +2,9 @@
 
 namespace Mars.Vehicle.Core
 {
-    public class Logger : ILogger
+    public class RoverVisitor : IVisitor
     {
-        public void Log(IRover nasaRover)
+        public void Visit(IRover rover)
         {
             Console.WriteLine($"{nameof(NasaRover)} logged");
         }
