@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mars.Rover", "MarsRover\Mars.Rover.csproj", "{029AE15E-8B5E-4FB8-99D6-A9AA37E1E22D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mars.Rover", "Mars.Rover\Mars.Rover.csproj", "{029AE15E-8B5E-4FB8-99D6-A9AA37E1E22D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mars.Rover.Test", "MarsRoverTest\Mars.Rover.Test.csproj", "{02258737-C398-4C28-AD6C-43646276B0C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mars.Rover.Test", "Mars.Rover.Test\Mars.Rover.Test.csproj", "{02258737-C398-4C28-AD6C-43646276B0C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mars.Vehicle.Core", "Nasa\Mars.Vehicle.Core.csproj", "{669F48CC-DA2C-466D-9262-1DA0D1D72B1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mars.Vehicle.Core", "Mars.Vehicle.Core\Mars.Vehicle.Core.csproj", "{669F48CC-DA2C-466D-9262-1DA0D1D72B1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
