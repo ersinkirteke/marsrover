@@ -24,8 +24,8 @@ namespace Mars.Vehicle.Core
 
         public Directions Direction => _direction;
         public Guid Id => _id;
-        public int X => this._x;
-        public int Y => this._y;
+        public int X => _x;
+        public int Y => _y;
 
         public virtual IVehicle MoveForwards()
         {
