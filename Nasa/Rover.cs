@@ -6,11 +6,11 @@ namespace Mars.Vehicle.Core
     public abstract class Rover : IVehicle
     {
         private Guid _id;
-        public ICompany Owner { get; set; }
         private int _y;
         private int _x;
         private IPlateu _plateu;
         private Directions _direction;
+        public ICompany Owner { get; set; }
 
         public Rover(IPlateu plateu, int x, int y, Directions direction)
         {
