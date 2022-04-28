@@ -1,9 +1,9 @@
 using Moq;
-using Nasa;
-using Nasa.Enums;
+using Mars.Vehicle.Enums;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using Xunit;
+using Mars.Vehicle.Core;
 
 namespace MarsRoverTest
 {
@@ -17,8 +17,8 @@ namespace MarsRoverTest
             IPlateu _plateu = new Plateu(5, 5);
 
             //Act
-            _plateu.AddThing(new Mock<IThing>().Object, 1, 1);
-            void act() => _plateu.AddThing(new Mock<IThing>().Object, 1, 1);
+            _plateu.AddVehicle(new Mock<IVehicle>().Object, 1, 1);
+            void act() => _plateu.AddVehicle(new Mock<IVehicle>().Object, 1, 1);
 
             //Assert
             var exception = Assert.Throws<ArgumentException>(act);
@@ -31,7 +31,7 @@ namespace MarsRoverTest
             IPlateu _plateu = new Plateu(5, 5);
 
             //Act
-            void act() => _plateu.AddThing(new Mock<IThing>().Object, 6, 1);
+            void act() => _plateu.AddVehicle(new Mock<IVehicle>().Object, 6, 1);
 
             //Assert
             var exception = Assert.Throws<IndexOutOfRangeException>(act);
@@ -45,8 +45,8 @@ namespace MarsRoverTest
             IPlateu _plateu = new Plateu(5, 5);
 
             //Act
-            _plateu.AddThing(new Mock<IThing>().Object, 0, 1);
-            _plateu.AddThing(new Mock<IThing>().Object, 2, 1);
+            _plateu.AddVehicle(new Mock<IVehicle>().Object, 0, 1);
+            _plateu.AddVehicle(new Mock<IVehicle>().Object, 2, 1);
             bool _isAvalable = _plateu.IsAvailable(1, 1);
 
             //Assert
@@ -60,8 +60,8 @@ namespace MarsRoverTest
             IPlateu _plateu = new Plateu(5, 5);
 
             //Act
-            _plateu.AddThing(new Mock<IThing>().Object, 0, 1);
-            _plateu.AddThing(new Mock<IThing>().Object, 2, 1);
+            _plateu.AddVehicle(new Mock<IVehicle>().Object, 0, 1);
+            _plateu.AddVehicle(new Mock<IVehicle>().Object, 2, 1);
             bool _isAvalable = _plateu.IsAvailable(2, 1);
 
             //Assert
@@ -75,8 +75,8 @@ namespace MarsRoverTest
             IPlateu _plateu = new Plateu(5, 5);
 
             //Act
-            _plateu.AddThing(new Mock<IThing>().Object, 0, 1);
-            _plateu.AddThing(new Mock<IThing>().Object, 2, 1);
+            _plateu.AddVehicle(new Mock<IVehicle>().Object, 0, 1);
+            _plateu.AddVehicle(new Mock<IVehicle>().Object, 2, 1);
             bool _isAvalable = _plateu.IsAvailable(6, 1);
 
             //Assert
@@ -90,7 +90,7 @@ namespace MarsRoverTest
             IPlateu _plateu = new Plateu(5, 5);
 
             //Act
-            IVehicle _vehicle = new Rover(_plateu, 1, 1, Directions.East);
+            IVehicle _vehicle = new NasaRover(_plateu, 1, 1, Directions.East);
 
             //Assert
             Assert.False(_plateu.IsAvailable(1, 1));
@@ -103,8 +103,8 @@ namespace MarsRoverTest
             IPlateu _plateu = new Plateu(5, 5);
 
             //Act
-            IVehicle _vehicle = new Rover(_plateu, 1, 1, Directions.East);
-            void act() => new Rover(_plateu, 1, 1, Directions.East);
+            IVehicle _vehicle = new NasaRover(_plateu, 1, 1, Directions.East);
+            void act() => new NasaRover(_plateu, 1, 1, Directions.East);
 
             //Assert
             var exception = Assert.Throws<ArgumentException>(act);
@@ -118,7 +118,7 @@ namespace MarsRoverTest
             IPlateu _plateu = new Plateu(5, 5);
 
             //Act
-            IVehicle _vehicle = new Rover(_plateu, 1, 1, Directions.North);
+            IVehicle _vehicle = new NasaRover(_plateu, 1, 1, Directions.North);
             _vehicle.MoveForwards();
 
             //Assert
@@ -133,8 +133,8 @@ namespace MarsRoverTest
             IPlateu _plateu = new Plateu(5, 5);
 
             //Act
-            IVehicle _vehicle = new Rover(_plateu, 1, 1, Directions.North);
-            IVehicle _vehicle2 = new Rover(_plateu, 1, 2, Directions.North);
+            IVehicle _vehicle = new NasaRover(_plateu, 1, 1, Directions.North);
+            IVehicle _vehicle2 = new NasaRover(_plateu, 1, 2, Directions.North);
             _vehicle.MoveForwards();
 
             //Assert
@@ -150,7 +150,7 @@ namespace MarsRoverTest
             IPlateu _plateu = new Plateu(5, 5);
 
             //Act
-            IVehicle _vehicle = new Rover(_plateu, 1, 1, Directions.North);
+            IVehicle _vehicle = new NasaRover(_plateu, 1, 1, Directions.North);
             _vehicle.TurnLeft().MoveForwards();
 
             //Assert
@@ -165,7 +165,7 @@ namespace MarsRoverTest
             IPlateu _plateu = new Plateu(5, 5);
 
             //Act
-            IVehicle _vehicle = new Rover(_plateu, 1, 1, Directions.North);
+            IVehicle _vehicle = new NasaRover(_plateu, 1, 1, Directions.North);
             _vehicle.TurnRight().MoveForwards();
 
             //Assert
@@ -194,7 +194,7 @@ namespace MarsRoverTest
             IPlateu _plateu = new Plateu(5, 5);
 
             //Act
-            IVehicle _vehicle = new Rover(_plateu, 1, 2, Directions.North)
+            IVehicle _vehicle = new NasaRover(_plateu, 1, 2, Directions.North)
                 .TurnLeft()
                 .MoveForwards()
                 .TurnLeft()
@@ -206,7 +206,7 @@ namespace MarsRoverTest
                 .MoveForwards();
 
             //Act
-            IVehicle _vehicle2 = new Rover(_plateu, 3, 3, Directions.East)
+            IVehicle _vehicle2 = new NasaRover(_plateu, 3, 3, Directions.East)
                 .MoveForwards()
                 .MoveForwards()
                 .TurnRight()

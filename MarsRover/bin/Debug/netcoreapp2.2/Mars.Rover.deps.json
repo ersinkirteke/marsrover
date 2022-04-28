@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Mars.Rover/1.0.0": {
+        "dependencies": {
+          "Mars.Vehicle.Core": "1.0.0"
+        },
+        "runtime": {
+          "Mars.Rover.dll": {}
+        }
+      },
+      "Mars.Vehicle.Core/1.0.0": {
+        "runtime": {
+          "Mars.Vehicle.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mars.Rover/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mars.Vehicle.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

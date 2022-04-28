@@ -1,9 +1,12 @@
-﻿using Nasa.Enums;
+﻿using Mars.Vehicle.Enums;
+using System;
 
-namespace Nasa
+namespace Mars.Vehicle.Core
 {
-    public class Rover : IVehicle
+    public abstract class Rover : IVehicle
     {
+        public Guid Id { get; set; } = Guid.Empty;
+        public ICompany Owner { get; set; }
         private int _y;
         private int _x;
         private IPlateu _plateu;
@@ -15,13 +18,14 @@ namespace Nasa
             _x = x;
             _y = y;
             _direction = direction;
-            _plateu.AddThing(this, _x, _y);
+            _plateu.AddVehicle(this, _x, _y);
         }
+
         public Directions Direction => this._direction;
         public int X => this._x;
         public int Y => this._y;
 
-        public IVehicle MoveForwards()
+        public virtual IVehicle MoveForwards()
         {
             var _new_x = _direction.Equals(Directions.North) || _direction.Equals(Directions.South) ? _x
                  : _x + (_direction.Equals(Directions.East) ? +1 : -1);
@@ -31,7 +35,7 @@ namespace Nasa
 
             if (_plateu.IsAvailable(_new_x, _new_y))
             {
-                _plateu.MoveThing(_x, _y, _new_x, _new_y);
+                _plateu.MoveVehicle(_x, _y, _new_x, _new_y);
                 _x = _new_x;
                 _y = _new_y;
             }
@@ -39,7 +43,7 @@ namespace Nasa
             return this;
         }
 
-        public IVehicle TurnLeft()
+        public virtual IVehicle TurnLeft()
         {
             switch (_direction)
             {
@@ -62,7 +66,7 @@ namespace Nasa
             return this;
         }
 
-        public IVehicle TurnRight()
+        public virtual IVehicle TurnRight()
         {
             switch (_direction)
             {
@@ -83,6 +87,29 @@ namespace Nasa
             }
 
             return this;
+        }
+
+        public virtual void ReceiveMessage(string message)
+        {
+            if (Owner != null)
+            {
+                switch (message)
+                {
+                    case "R":
+                        TurnRight();
+                        break;
+                    case "L":
+                        TurnLeft();
+                        break;
+                    case "M":
+                        MoveForwards();
+                        break;
+                    default:
+                        break;
+                }
+            }
+            else
+                Console.WriteLine($"Not permitted rover, rover id { Id}");
         }
     }
 }

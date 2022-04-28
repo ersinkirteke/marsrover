@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Nasa
+namespace Mars.Vehicle.Core
 {
     public class Plateu : IPlateu
     {
-        IDictionary<Tuple<int, int>, IThing> _things;
+        IDictionary<Tuple<int, int>, IVehicle> _vehicles;
         private int _y;
         private int _x;
 
@@ -13,30 +13,30 @@ namespace Nasa
         {
             _x = x;
             _y = y;
-            _things = new Dictionary<Tuple<int, int>, IThing>();
+            _vehicles = new Dictionary<Tuple<int, int>, IVehicle>();
         }
 
-        public void AddThing(IThing thing, int x, int y)
+        public void AddVehicle(IVehicle thing, int x, int y)
         {
             if (x > _x || y > _y)
             {
                 throw new IndexOutOfRangeException("You can't add anything to outer space");
             }
 
-            _things.Add(Tuple.Create(x, y), thing);
+            _vehicles.Add(Tuple.Create(x, y), thing);
         }
 
-        public void MoveThing(int x, int y, int new_x, int new_y)
+        public void MoveVehicle(int x, int y, int new_x, int new_y)
         {
             var _coordinates = Tuple.Create(x, y);
-            IThing _thing = _things[_coordinates];
-            AddThing(_thing, new_x, new_y);
-            _things.Remove(_coordinates);
+            IVehicle vehicle = _vehicles[_coordinates];
+            AddVehicle(vehicle, new_x, new_y);
+            _vehicles.Remove(_coordinates);
         }
 
         public bool IsAvailable(int x, int y)
         {
-            if (_things.Keys.Contains(Tuple.Create(x, y)))
+            if (_vehicles.Keys.Contains(Tuple.Create(x, y)))
             {
                 return false;
             }

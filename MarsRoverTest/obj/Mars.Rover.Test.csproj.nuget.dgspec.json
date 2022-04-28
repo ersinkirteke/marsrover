@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\gitrepo\\sahabt\\MarsRoverTest\\MarsRoverTest.csproj": {}
+    "D:\\gitrepo\\sahabt\\MarsRoverTest\\Mars.Rover.Test.csproj": {}
   },
   "projects": {
-    "D:\\gitrepo\\sahabt\\MarsRoverTest\\MarsRoverTest.csproj": {
+    "D:\\gitrepo\\sahabt\\MarsRoverTest\\Mars.Rover.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\gitrepo\\sahabt\\MarsRoverTest\\MarsRoverTest.csproj",
-        "projectName": "MarsRoverTest",
-        "projectPath": "D:\\gitrepo\\sahabt\\MarsRoverTest\\MarsRoverTest.csproj",
+        "projectUniqueName": "D:\\gitrepo\\sahabt\\MarsRoverTest\\Mars.Rover.Test.csproj",
+        "projectName": "Mars.Rover.Test",
+        "projectPath": "D:\\gitrepo\\sahabt\\MarsRoverTest\\Mars.Rover.Test.csproj",
         "packagesPath": "C:\\Users\\Ersin Kırteke\\.nuget\\packages\\",
         "outputPath": "D:\\gitrepo\\sahabt\\MarsRoverTest\\obj\\",
         "projectStyle": "PackageReference",

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\gitrepo\\sahabt\\Nasa\\Nasa.csproj": {}
+    "D:\\gitrepo\\sahabt\\Nasa\\Nasa.Vehicle.Core.csproj": {}
   },
   "projects": {
-    "D:\\gitrepo\\sahabt\\Nasa\\Nasa.csproj": {
+    "D:\\gitrepo\\sahabt\\Nasa\\Nasa.Vehicle.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\gitrepo\\sahabt\\Nasa\\Nasa.csproj",
-        "projectName": "Nasa",
-        "projectPath": "D:\\gitrepo\\sahabt\\Nasa\\Nasa.csproj",
+        "projectUniqueName": "D:\\gitrepo\\sahabt\\Nasa\\Nasa.Vehicle.Core.csproj",
+        "projectName": "Nasa.Vehicle.Core",
+        "projectPath": "D:\\gitrepo\\sahabt\\Nasa\\Nasa.Vehicle.Core.csproj",
         "packagesPath": "C:\\Users\\Ersin Kırteke\\.nuget\\packages\\",
         "outputPath": "D:\\gitrepo\\sahabt\\Nasa\\obj\\",
         "projectStyle": "PackageReference",

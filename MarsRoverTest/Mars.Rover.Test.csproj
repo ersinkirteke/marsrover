@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Nasa\Nasa.csproj" />
+    <ProjectReference Include="..\Nasa\Mars.Vehicle.Core.csproj" />
   </ItemGroup>
 
 </Project>

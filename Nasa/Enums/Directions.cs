@@ -1,5 +1,4 @@
-﻿
-namespace Nasa.Enums
+﻿namespace Mars.Vehicle.Enums
 {
     public enum Directions
     {
