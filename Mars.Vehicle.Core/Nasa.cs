@@ -1,5 +1,4 @@
-﻿using Mars.Vehicle.Enums;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace Mars.Vehicle.Core
