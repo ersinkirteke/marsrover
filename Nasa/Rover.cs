@@ -5,7 +5,7 @@ namespace Mars.Vehicle.Core
 {
     public abstract class Rover : IVehicle
     {
-        public Guid Id { get; set; } = Guid.Empty;
+        private Guid _id;
         public ICompany Owner { get; set; }
         private int _y;
         private int _x;
@@ -14,6 +14,7 @@ namespace Mars.Vehicle.Core
 
         public Rover(IPlateu plateu, int x, int y, Directions direction)
         {
+            _id = Guid.NewGuid();
             _plateu = plateu;
             _x = x;
             _y = y;
@@ -21,7 +22,8 @@ namespace Mars.Vehicle.Core
             _plateu.AddVehicle(this, _x, _y);
         }
 
-        public Directions Direction => this._direction;
+        public Directions Direction => _direction;
+        public Guid Id => _id;
         public int X => this._x;
         public int Y => this._y;
 
