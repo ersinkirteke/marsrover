@@ -16,7 +16,6 @@ namespace MarsRover
             var _vehicle3 = new NasaRoverWithLogger(_plateu, 4, 4, Directions.East);
 
             IVisitor logger = new RoverVisitor();
-            _vehicle3.Accept(logger);
 
             nasa.Register(_vehicle);
             nasa.Register(_vehicle2);
@@ -44,16 +43,27 @@ namespace MarsRover
             nasa.SendMessage(_vehicle2.Id, "R");
             nasa.SendMessage(_vehicle2.Id, "M");
 
+            _vehicle3.Accept(logger);
             nasa.SendMessage(_vehicle3.Id, "M");
+            _vehicle3.Accept(logger);
             nasa.SendMessage(_vehicle3.Id, "M");
+            _vehicle3.Accept(logger);
             nasa.SendMessage(_vehicle3.Id, "R");
+            _vehicle3.Accept(logger);
             nasa.SendMessage(_vehicle3.Id, "M");
+            _vehicle3.Accept(logger);
             nasa.SendMessage(_vehicle3.Id, "M");
+            _vehicle3.Accept(logger);
             nasa.SendMessage(_vehicle3.Id, "R");
+            _vehicle3.Accept(logger);
             nasa.SendMessage(_vehicle3.Id, "M");
+            _vehicle3.Accept(logger);
             nasa.SendMessage(_vehicle3.Id, "R");
+            _vehicle3.Accept(logger);
             nasa.SendMessage(_vehicle3.Id, "R");
+            _vehicle3.Accept(logger);
             nasa.SendMessage(_vehicle3.Id, "M");
+            _vehicle3.Accept(logger);
 
 
             Console.WriteLine($"{_vehicle.X} {_vehicle.Y} {_vehicle.Direction.ToString()[0]}");

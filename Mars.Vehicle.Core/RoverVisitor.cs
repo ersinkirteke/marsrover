@@ -6,7 +6,8 @@ namespace Mars.Vehicle.Core
     {
         public void Visit(IRover rover)
         {
-            Console.WriteLine($"{nameof(NasaRover)} logged");
+            Rover roverLogged = rover as Rover;
+            Console.WriteLine($"{nameof(NasaRover)} logged, rover position:{roverLogged.X} - {roverLogged.Y}, rover direction:{roverLogged.Direction}");
         }
     }
 }

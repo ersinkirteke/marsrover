@@ -19,6 +19,8 @@ namespace Mars.Vehicle.Core
 
         public void SendMessage(Guid roverId, string message)
         {
+            Console.WriteLine($"Nasa send message:{message} to rover:{roverId}");
+
             Rover rover = rovers[roverId];
 
             if (rover != null)

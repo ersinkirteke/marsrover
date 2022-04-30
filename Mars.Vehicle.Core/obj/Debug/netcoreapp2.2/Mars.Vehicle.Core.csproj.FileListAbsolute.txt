@@ -16,3 +16,4 @@ D:\gitrepo\sahabt\Mars.Vehicle.Core\obj\Debug\netcoreapp2.2\Mars.Vehicle.Core.As
 D:\gitrepo\sahabt\Mars.Vehicle.Core\obj\Debug\netcoreapp2.2\Mars.Vehicle.Core.csproj.CoreCompileInputs.cache
 D:\gitrepo\sahabt\Mars.Vehicle.Core\obj\Debug\netcoreapp2.2\Mars.Vehicle.Core.dll
 D:\gitrepo\sahabt\Mars.Vehicle.Core\obj\Debug\netcoreapp2.2\Mars.Vehicle.Core.pdb
+D:\gitrepo\sahabt\Mars.Vehicle.Core\obj\Debug\netcoreapp2.2\Mars.Vehicle.Core.csproj.AssemblyReference.cache
