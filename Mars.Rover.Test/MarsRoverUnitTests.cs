@@ -35,7 +35,7 @@ namespace MarsRoverTest
 
             //Assert
             var exception = Assert.Throws<IndexOutOfRangeException>(act);
-            Assert.Equal("You can't add any rover to outer space", exception.Message);
+            Assert.Equal("You can't add rover to outer space", exception.Message);
         }
 
         [Fact]
