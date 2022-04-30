@@ -11,7 +11,7 @@ namespace MarsRoverTest
     public class MarsRoverUnitTests
     {
         [Fact]
-        public void When_Add_Two_Things_To_Same_Location_Throws_ArgumentException()
+        public void When_Add_Two_Rovers_To_Same_Location_Throws_ArgumentException()
         {
             //Arrange
             IPlateu _plateu = new Plateu(5, 5);
@@ -25,7 +25,7 @@ namespace MarsRoverTest
         }
 
         [Fact]
-        public void When_Add_Thing_To_Outer_Place_Throws_IndexOutOfRangeException()
+        public void When_Add_Rover_To_Outer_Place_Throws_IndexOutOfRangeException()
         {
             //Arrange
             IPlateu _plateu = new Plateu(5, 5);
@@ -35,11 +35,11 @@ namespace MarsRoverTest
 
             //Assert
             var exception = Assert.Throws<IndexOutOfRangeException>(act);
-            Assert.Equal("You can't add anything to outer space", exception.Message);
+            Assert.Equal("You can't add any rover to outer space", exception.Message);
         }
 
         [Fact]
-        public void When_Add_Thing_IsAvailable_True()
+        public void When_Add_Rover_IsAvailable_True()
         {
             //Arrange
             IPlateu _plateu = new Plateu(5, 5);
@@ -54,7 +54,7 @@ namespace MarsRoverTest
         }
 
         [Fact]
-        public void When_Add_Thing_IsAvailable_False()
+        public void When_Add_Rover_IsAvailable_False()
         {
             //Arrange
             IPlateu _plateu = new Plateu(5, 5);
@@ -69,7 +69,7 @@ namespace MarsRoverTest
         }
 
         [Fact]
-        public void When_Add_Thing_IsAvailable_Outer_Space_False()
+        public void When_Add_Rover_IsAvailable_Outer_Space_False()
         {
             //Arrange
             IPlateu _plateu = new Plateu(5, 5);
