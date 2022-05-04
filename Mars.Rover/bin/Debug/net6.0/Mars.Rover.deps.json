@@ -1,11 +1,11 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v2.2",
+    "name": ".NETCoreApp,Version=v6.0",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v2.2": {
+    ".NETCoreApp,Version=v6.0": {
       "Mars.Rover/1.0.0": {
         "dependencies": {
           "Mars.Vehicle.Core": "1.0.0"

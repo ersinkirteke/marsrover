@@ -1,6 +1,5 @@
 using Moq;
 using Mars.Vehicle.Enums;
-using System;
 using System.Diagnostics.CodeAnalysis;
 using Xunit;
 using Mars.Vehicle.Core;
@@ -90,7 +89,7 @@ namespace MarsRoverTest
             IPlateu _plateu = new Plateu(5, 5);
 
             //Act
-            IVehicle _vehicle = new NasaRover(_plateu, 1, 1, Directions.East);
+            _ = new NasaRover(_plateu, 1, 1, Directions.East);
 
             //Assert
             Assert.False(_plateu.IsAvailable(1, 1));
@@ -104,7 +103,10 @@ namespace MarsRoverTest
 
             //Act
             IVehicle _vehicle = new NasaRover(_plateu, 1, 1, Directions.East);
-            void act() => new NasaRover(_plateu, 1, 1, Directions.East);
+            void act()
+            {
+                _ = new NasaRover(_plateu, 1, 1, Directions.East);
+            }
 
             //Assert
             var exception = Assert.Throws<ArgumentException>(act);
@@ -134,7 +136,7 @@ namespace MarsRoverTest
 
             //Act
             IVehicle _vehicle = new NasaRover(_plateu, 1, 1, Directions.North);
-            IVehicle _vehicle2 = new NasaRover(_plateu, 1, 2, Directions.North);
+            _ = new NasaRover(_plateu, 1, 2, Directions.North);
             _vehicle.MoveForwards();
 
             //Assert
@@ -194,7 +196,7 @@ namespace MarsRoverTest
             IPlateu _plateu = new Plateu(5, 5);
 
             //Act
-            IVehicle _vehicle = new NasaRover(_plateu, 1, 2, Directions.North)
+            _ = new NasaRover(_plateu, 1, 2, Directions.North)
                 .TurnLeft()
                 .MoveForwards()
                 .TurnLeft()
@@ -206,7 +208,7 @@ namespace MarsRoverTest
                 .MoveForwards();
 
             //Act
-            IVehicle _vehicle2 = new NasaRover(_plateu, 3, 3, Directions.East)
+            _ = new NasaRover(_plateu, 3, 3, Directions.East)
                 .MoveForwards()
                 .MoveForwards()
                 .TurnRight()

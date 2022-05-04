@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Mars.Vehicle.Core
+﻿namespace Mars.Vehicle.Core
 {
     public interface ICompany
     {

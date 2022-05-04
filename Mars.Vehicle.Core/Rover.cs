@@ -1,14 +1,13 @@
 ﻿using Mars.Vehicle.Enums;
-using System;
 
 namespace Mars.Vehicle.Core
 {
     public abstract class Rover : IVehicle
     {
-        private Guid _id;
+        private readonly Guid _id;
         private int _y;
         private int _x;
-        private IPlateu _plateu;
+        private readonly IPlateu _plateu;
         private Directions _direction;
         public ICompany Owner { get; set; }
 

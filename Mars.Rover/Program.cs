@@ -6,7 +6,7 @@ namespace MarsRover
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var _plateu = new Plateu(5, 5);
             var nasa = new Nasa();

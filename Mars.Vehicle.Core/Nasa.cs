@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Mars.Vehicle.Core
+﻿namespace Mars.Vehicle.Core
 {
     public class Nasa : ICompany
     {
-        private Dictionary<Guid, Rover> rovers = new Dictionary<Guid, Rover>();
+        private readonly Dictionary<Guid, Rover> rovers = new();
 
         public void Register(Rover rover)
         {

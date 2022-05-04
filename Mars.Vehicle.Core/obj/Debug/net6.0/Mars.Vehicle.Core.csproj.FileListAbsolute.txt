@@ -1,0 +1,13 @@
+D:\gitrepo\sahabt\Mars.Vehicle.Core\obj\Debug\net6.0\Mars.Vehicle.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\gitrepo\sahabt\Mars.Vehicle.Core\obj\Debug\net6.0\Mars.Vehicle.Core.AssemblyInfoInputs.cache
+D:\gitrepo\sahabt\Mars.Vehicle.Core\obj\Debug\net6.0\Mars.Vehicle.Core.AssemblyInfo.cs
+D:\gitrepo\sahabt\Mars.Vehicle.Core\obj\Debug\net6.0\Mars.Vehicle.Core.ImplicitNamespaceImports.cs
+D:\gitrepo\sahabt\Mars.Vehicle.Core\obj\Debug\net6.0\Mars.Vehicle.Core.csproj.CoreCompileInputs.cache
+D:\gitrepo\sahabt\Mars.Vehicle.Core\bin\Debug\net6.0\Mars.Vehicle.Core.deps.json
+D:\gitrepo\sahabt\Mars.Vehicle.Core\bin\Debug\net6.0\Mars.Vehicle.Core.dll
+D:\gitrepo\sahabt\Mars.Vehicle.Core\bin\Debug\net6.0\ref\Mars.Vehicle.Core.dll
+D:\gitrepo\sahabt\Mars.Vehicle.Core\bin\Debug\net6.0\Mars.Vehicle.Core.pdb
+D:\gitrepo\sahabt\Mars.Vehicle.Core\obj\Debug\net6.0\Mars.Vehicle.Core.dll
+D:\gitrepo\sahabt\Mars.Vehicle.Core\obj\Debug\net6.0\ref\Mars.Vehicle.Core.dll
+D:\gitrepo\sahabt\Mars.Vehicle.Core\obj\Debug\net6.0\Mars.Vehicle.Core.pdb
+D:\gitrepo\sahabt\Mars.Vehicle.Core\obj\Debug\net6.0\Mars.Vehicle.Core.csproj.AssemblyReference.cache
